@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="antialiased scroll-smooth" lang="pt-BR">
+<head>
+    <title>Leticia Argente</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Leticia Argente">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" href="" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <script defer src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.15.4/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.4/dist/cdn.min.js"></script>
+    <style>
+        * {
+            font-family: Poppins;
+        }
+        .font-playfair {
+            font-family: Playfair Display;
+        }
+    </style>
+</head>
+<body class="bg-[#292522] text-white" x-data="alpine">
+
+    <div class="max-xl:px-4 pt-4 sm:pt-8">
+        <div class="flex justify-between items-center mx-auto max-w-5xl">
+            <p class="font-playfair text-xl">Leticia Argente</p>
+            <div class="max-sm:hidden flex justify-center items-center gap-8 text-sm">
+                <a href="">Apresentação</a>
+                <a href="">Planos</a>
+                <a href="">Duvidas</a>
+                <a href="">Contato</a>
+            </div>
+            <button class="sm:hidden" @click="menu = true">
+                <svg class="size-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="relative bg-[#292522]">
+        <div class="-bottom-16 absolute bg-linear-to-t from-[#24292D] to-[#292522] w-full h-32"></div>
+        <div class="relative max-sm:flex max-sm:flex-col items-center gap-16 sm:grid sm:grid-cols-2 mx-auto max-xl:px-4 pt-16 sm:pt-24 pb-24 sm:pb-32 max-w-5xl">
+            <div class="space-y-8 max-sm:text-center">
+                <div class="text-5xl lg:text-7xl leading-16 lg:leading-24">
+                    <p class="font-playfair">Coma Melhor</p>
+                    <p class="font-playfair">Viva Melhor</p>
+                </div>
+                <p class="text-gray-300 leading-7">Nesta página, você encontra os modelos de atendimento disponíveis, com informações claras sobre formato, nível de acompanhamento e valores, para escolher a opção que mais faz sentido para você</p>
+                <a class="bg-[#4d6160] shadow-sm px-8 py-3 rounded-full font-semibold text-sm cursor-pointer" href="#planos">Comece Agora</a>
+            </div>
+            <img class="rounded-xl" src="static/images/IMG_5978.webp">
+        </div>
+    </div>
+
+    <div class="bg-[#24292D]">
+        <div class="space-y-16 mx-auto max-xl:px-4 py-24 sm:py-32 max-w-7xl text-center">
+            <div class="space-y-4">
+                <p class="font-playfair text-3xl sm:text-4xl leading-10">Master Cleanse Reliac Heirloom</p>
+                <p class="mx-auto max-w-2xl text-gray-300 leading-7">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac</p>
+            </div>
+            <div class="gap-16 grid lg:grid-cols-3">
+                <div class="space-y-4">
+                    <div class="flex justify-center items-center bg-[#292522] mx-auto rounded-full size-16">
+                        <svg class="size-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                        </svg>
+                    </div>
+                    <p class="font-medium text-lg">Shooting Stars</p>
+                    <p class="text-gray-300 leading-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, eum similique fuga tempore ratione eligendi nulla rerum provident</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex justify-center items-center bg-[#292522] mx-auto rounded-full size-16">
+                        <svg class="size-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                        </svg>
+                    </div>
+                    <p class="font-medium text-lg">Shooting Stars</p>
+                    <p class="text-gray-300 leading-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, eum similique fuga tempore ratione eligendi nulla rerum provident</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex justify-center items-center bg-[#292522] mx-auto rounded-full size-16">
+                        <svg class="size-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                        </svg>
+                    </div>
+                    <p class="font-medium text-lg">Shooting Stars</p>
+                    <p class="text-gray-300 leading-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, eum similique fuga tempore ratione eligendi nulla rerum provident</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative bg-[#292522]">
+        <div class="-top-16 absolute bg-linear-to-b from-[#24292D] to-[#292522] w-full h-32"></div>
+        <div class="space-y-16 mx-auto max-xl:px-4 py-24 sm:py-32 max-w-5xl" id="planos">
+            <div class="space-y-4 text-center">
+                <p class="font-playfair text-3xl sm:text-4xl leading-10">Quais são os meus formatos de atendimento?</p>
+                <p class="mx-auto max-w-3xl text-gray-300 leading-7">Aqui estão os modelos disponíveis, com informações sobre acompanhamento e valores para você escolher a opção que melhor atenda às suas necessidades</p>
+            </div>
+            <div class="gap-8 grid lg:grid-cols-2">
+                <template x-for="subscription in subscriptions">
+                    <div class="border border-[#4d6160] rounded-xl divide-y divide-[#4d6160]">
+                        <div class="space-y-4 p-8">
+                            <p class="font-medium text-xl lg:text-2xl" x-text="subscription.name"></p>
+                            <p class="text-gray-300" x-text="subscription.description"></p>
+                            <div class="flex items-center gap-2">
+                                <span class="font-semibold text-2xl sm:text-3xl" x-text="subscription.price"></span>
+                                <span class="font-medium" x-text="subscription.type"></span>
+                            </div>
+                            <a class="block bg-[#4d6160] p-2 rounded-sm w-full font-semibold text-sm text-center" :href="subscription.link">Comece Agora</a>
+                        </div>
+                        <div class="space-y-8 p-8">
+                            <p class="font-medium text-lg lg:text-xl">O que está incluso?</p>
+                            <div class="space-y-4">
+                                <template x-for="include in subscription.included">
+                                    <div class="flex items-center gap-4">
+                                        <svg class="size-5 text-[#DDCA24] shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span class="text-gray-300" x-text="include"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
