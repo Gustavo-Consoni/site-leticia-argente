@@ -34,26 +34,26 @@
 
     <div class="relative h-screen">
         <video class="absolute size-full object-cover max-sm:object-[20%]" autoplay loop muted playsinline src="static/videos/copy_0224F0D0-11EA-4011-A2F7-4A88452AF6CC.MOV"></video>
-        <div class="absolute bg-linear-to-t from-[#292522] via-transparent to-[#292522] size-full"></div>
+        <div class="absolute bg-linear-to-t from-[#292522] to-[#292522]/50 size-full"></div>
         <div class="absolute inset-0 flex flex-col justify-center items-center gap-y-8 mx-auto max-xl:px-4 max-w-7xl text-center">
-            <div class="text-5xl lg:text-7xl leading-16 lg:leading-24">
-                <p class="font-playfair">Coma Melhor</p>
-                <p class="font-playfair">Viva Melhor</p>
+            <div class="max-w-4xl text-3xl sm:text-5xl lg:text-7xl leading-12 sm:leading-16 lg:leading-24">
+                <p class="font-playfair">A ROTINA CERTA</p>
+                <p class="font-playfair">TRANSFORMA SEU CORPO</p>
             </div>
             <p class="max-w-2xl text-gray-300 sm:text-lg leading-7">Nesta página, você encontra os modelos de atendimento disponíveis, com informações claras sobre formato, nível de acompanhamento e valores, para escolher a opção que mais faz sentido para você</p>
-            <a class="block bg-[#afb57f] px-8 py-3 rounded-full w-fit font-semibold text-sm" href="#planos">Entrar em Contato</a>
+            <a class="block bg-[#afb57f] px-8 py-3 rounded-full w-fit font-semibold text-sm" href="#planos">Comece Agora</a>
         </div>
         <div class="top-0 absolute inset-x-0 mx-auto max-xl:px-4 pt-8 max-w-7xl">
             <div class="flex justify-between items-center">
                 <p class="font-playfair text-xl">Leticia Argente</p>
                 <div class="max-lg:hidden flex items-center font-medium text-sm">
-                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="">Apresentação</a>
-                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="">Planos</a>
-                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="">Depoimentos</a>
-                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="">Dúvidas</a>
-                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="">Contato</a>
+                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="#apresentacao">Apresentação</a>
+                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="#planos">Planos</a>
+                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="depoimentos">Depoimentos</a>
+                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="#duvidas">Dúvidas</a>
+                    <a class="px-8 py-3 hover:text-[#afb57f] duration-300" href="https://wa.me/5519999491758">Contato</a>
                 </div>
-                <button class="sm:hidden" @click="menu = true">
+                <button class="lg:hidden" @click="menu = true">
                     <svg class="size-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                         <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
                     </svg>
@@ -71,8 +71,8 @@
                     <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
                 </svg>
             </div>
-            <p class="mt-8 mb-4 font-playfair text-3xl text-center leading-10">Conhecimento</p>
-            <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet fugit, vitae tenetur, autem, voluptate aperiam delectus dolorum ab eius voluptatem aliquid dicta</p>
+            <p class="mt-8 mb-4 font-playfair text-3xl leading-10">Alimentação que cabe na sua vida</p>
+            <p class="text-gray-300">Chega de fazer dieta restritiva e planos impossíveis de manter. Você aprende a comer bem dentro da sua rotina real: trabalho, filhos, cansaço, imprevistos e vida adulta</p>
         </div>
         <div class="p-8 border border-[#dd7a37] rounded-xl">
             <div class="bg-[#afb57f] mx-auto p-4 rounded-full w-fit">
@@ -82,8 +82,8 @@
                     <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
                 </svg>
             </div>
-            <p class="mt-8 mb-4 font-playfair text-3xl text-center leading-10">Conhecimento</p>
-            <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet fugit, vitae tenetur, autem, voluptate aperiam delectus dolorum ab eius voluptatem aliquid dicta</p>
+            <p class="mt-8 mb-4 font-playfair text-3xl leading-10">Estratégias que geram constância</p>
+            <p class="text-gray-300">Eu te ensino o que realmente faz diferença: hábitos simples, ajustes inteligentes e escolhas possíveis. Resultado vem daquilo que você repete, não do que tenta fazer perfeito</p>
         </div>
         <div class="p-8 border border-[#dd7a37] rounded-xl">
             <div class="bg-[#afb57f] mx-auto p-4 rounded-full w-fit">
@@ -93,17 +93,17 @@
                     <path d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
                 </svg>
             </div>
-            <p class="mt-8 mb-4 font-playfair text-3xl text-center leading-10">Conhecimento</p>
-            <p class="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet fugit, vitae tenetur, autem, voluptate aperiam delectus dolorum ab eius voluptatem aliquid dicta</p>
+            <p class="mt-8 mb-4 font-playfair text-3xl leading-10">Resultados que você sustenta</p>
+            <p class="text-gray-300">Emagrecimento como consequência de uma rotina que funciona. Com orientação clara e prática, do jeito que cabe na vida adulta</p>
         </div>
     </div>
 
-    <div class="max-sm:flex max-sm:flex-col items-center gap-x-16 gap-y-8 sm:grid sm:grid-cols-5 mx-auto max-xl:px-4 pt-16 max-w-7xl">
+    <div class="max-sm:flex max-sm:flex-col items-center gap-x-16 gap-y-8 sm:grid sm:grid-cols-5 mx-auto max-xl:px-4 pt-16 max-w-7xl" id="apresentacao">
         <img class="col-span-2 rounded-xl" src="static/images/IMG_9664.jpg">
         <div class="space-y-8 col-span-3 max-sm:text-center">
             <p class="font-playfair text-3xl sm:text-4xl leading-10">Quem é Leticia Argente?</p>
-            <p class="text-gray-300 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dicta aliquid. Illo nam porro expedita amet, veritatis quaerat cupiditate aspernatur nisi sed iusto ab aut optio dignissimos, odit explicabo praesentium</p>
-            <a class="block bg-[#afb57f] max-sm:mx-auto px-8 py-3 rounded-full w-fit font-semibold text-sm" href="#planos">Entrar em Contato</a>
+            <p class="text-gray-300 leading-7">Acredito em estratégias simples, escolhas possíveis e constância. Oriento mulheres a estruturarem uma rotina alimentar que realmente funcione. Resultados duradouros começam ajustando a vida que você já vive</p>
+            <a class="block bg-[#afb57f] max-sm:mx-auto px-8 py-3 rounded-full w-fit font-semibold text-sm" href="#planos">Comece Agora</a>
         </div>
     </div>
 
@@ -122,7 +122,7 @@
                             <span class="font-semibold text-2xl sm:text-3xl" x-text="subscription.price"></span>
                             <span class="font-medium" x-text="subscription.type"></span>
                         </div>
-                        <a class="block bg-[#afb57f] p-2 rounded-sm w-full font-semibold text-sm text-center" :href="subscription.link">Entrar em Contato</a>
+                        <a class="block bg-[#afb57f] p-2 rounded-sm w-full font-semibold text-sm text-center" :href="subscription.link">Comece Agora</a>
                     </div>
                     <div class="space-y-8 p-8">
                         <p class="font-medium text-lg lg:text-xl">O que está incluso?</p>
@@ -142,11 +142,11 @@
         </div>
     </div>
 
-    <div class="max-sm:flex max-sm:flex-col-reverse items-center gap-x-16 gap-y-8 sm:grid sm:grid-cols-5 mx-auto max-xl:px-4 pt-32 max-w-7xl">
+    <div class="max-sm:flex max-sm:flex-col-reverse items-center gap-x-16 gap-y-8 sm:grid sm:grid-cols-5 mx-auto max-xl:px-4 pt-32 max-w-7xl" id="depoimentos">
         <div class="space-y-8 col-span-3 max-sm:text-center">
             <p class="font-playfair text-3xl sm:text-4xl leading-10">Se ainda restou alguma dúvida, estou por aqui</p>
             <p class="text-gray-300 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dicta aliquid. Illo nam porro expedita amet, veritatis quaerat cupiditate aspernatur nisi sed iusto ab aut optio dignissimos, odit explicabo praesentium</p>
-            <a class="block bg-[#afb57f] max-sm:mx-auto px-8 py-3 rounded-full w-fit font-semibold text-sm" href="#planos">Entrar em Contato</a>
+            <a class="block bg-[#afb57f] max-sm:mx-auto px-8 py-3 rounded-full w-fit font-semibold text-sm" href="#planos">Comece Agora</a>
         </div>
         <img class="col-span-2 rounded-xl" src="static/images/IMG_9826.jpg">
     </div>
@@ -181,7 +181,7 @@
         <div class="space-y-8 col-span-3 text-center">
             <p class="font-playfair text-3xl sm:text-4xl leading-10">Se ainda restou alguma dúvida, estou por aqui</p>
             <p class="mx-auto max-w-2xl text-gray-300 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dicta aliquid. Illo nam porro expedita amet, veritatis quaerat cupiditate aspernatur nisi sed iusto ab aut optio dignissimos, odit explicabo praesentium</p>
-            <a class="block bg-[#afb57f] mx-auto px-8 py-3 rounded-full w-fit font-semibold text-sm cursor-pointer" href="#planos">Entrar em Contato</a>
+            <a class="block bg-[#afb57f] mx-auto px-8 py-3 rounded-full w-fit font-semibold text-sm cursor-pointer" href="https://wa.me/5519999491758">Entrar em Contato</a>
         </div>
         <div class="border-[#dd7a37] border-b"></div>
         <div class="flex max-sm:flex-col justify-between items-center gap-8">
@@ -207,6 +207,35 @@
                     </svg>
                 </a>
             </div>
+        </div>
+    </div>
+
+    <div
+        class="z-50 fixed inset-0 bg-black/50"
+        x-show="menu"
+        @click="menu = false"
+        x-transition.opacity.duration.500ms
+        x-cloak
+    >
+    </div>
+    <div
+        :class="{ '-translate-x-72 sm:-translate-x-96': menu }"
+        class="top-0 -right-72 sm:-right-96 z-50 fixed space-y-8 bg-[#292522] p-4 w-72 sm:w-96 h-full duration-500"
+    >
+        <div class="flex justify-between items-center">
+            <p class="font-playfair text-2xl">Menu</p>
+            <button class="cursor-pointer" @click="menu = false">
+                <svg class="size-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </div>
+        <div class="flex flex-col gap-y-4 text-sm">
+            <a class="py-3 border-[#dd7a37] border-b hover:text-[#afb57f] duration-300" href="#apresentacao">Apresentação</a>
+            <a class="py-3 border-[#dd7a37] border-b hover:text-[#afb57f] duration-300" href="#planos">Planos</a>
+            <a class="py-3 border-[#dd7a37] border-b hover:text-[#afb57f] duration-300" href="#depoimentos">Depoimentos</a>
+            <a class="py-3 border-[#dd7a37] border-b hover:text-[#afb57f] duration-300" href="#duvidas">Dúvidas</a>
+            <a class="py-3 border-[#dd7a37] border-b hover:text-[#afb57f] duration-300" href="https://wa.me/5519999491758">Contato</a>
         </div>
     </div>
 
